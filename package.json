@@ -22,5 +22,8 @@
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
   }
 }
