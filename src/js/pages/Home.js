@@ -13,7 +13,7 @@ export default class Home extends Component {
       { name: "GitHub", url: "https://github.com/keisei1092" },
       { name: "blog", url: "http://keisei1092.hatenablog.com" }
     ].map((link) =>
-      <li key={link.name}><a href="{link.url}">{link.name}</a></li>
+      <li key={link.name}><a href={link.url}>{link.name}</a></li>
     ) };
   }
   render() {
