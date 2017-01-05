@@ -2,5 +2,8 @@
   "name": "greetings",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  }
 }
