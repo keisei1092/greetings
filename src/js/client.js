@@ -1,12 +1,15 @@
 import React from "react";
 import { render } from "react-dom";
+import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
-class Layout extends React.Component {
-  render() {
-    return (
-      <h1>It works!</h1>
-    );
-  }
-}
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
 
-render(<Layout/>, document.getElementById('app'));
+render(
+  <Router history={hashHistory}>
+    <Route path="/" component={Layout}>
+      <IndexRoute component={Home} />
+    </Route>
+  </Router>,
+  document.getElementById('app')
+);
