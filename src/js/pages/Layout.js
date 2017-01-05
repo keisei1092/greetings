@@ -6,9 +6,9 @@ export default class Layout extends Component {
     const { location } = this.props;
     return (
       <div>
-        へっだー
+        {/* header component will be here! :] */}
         {this.props.children}
-        ふったー
+        {/* footer component will be here! ;] */}
       </div>
     );
   }
