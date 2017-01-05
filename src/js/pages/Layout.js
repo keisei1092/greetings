@@ -5,7 +5,7 @@ export default class Layout extends Component {
   render() {
     const { location } = this.props;
     return (
-      <div className="wf-sawarabigothic">
+      <div>
         {/* header component will be here! :] */}
         {this.props.children}
         {/* footer component will be here! ;] */}
